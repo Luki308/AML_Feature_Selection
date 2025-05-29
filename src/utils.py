@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.metrics import precision_score
+import matplotlib.pyplot as plt
 
 def calculate_custom_score(y_true, y_pred_proba, n_features):
     """
